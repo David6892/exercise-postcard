@@ -6,7 +6,7 @@ body {
 	min-height: 10px;
 }
 .postcard {
-	background: white;
+	background-color: white;
 	width: 400px;
 	height: 300px;
 	margin: auto;
@@ -19,27 +19,32 @@ body {
 	height: 50px;
 }
 .postcard-header h1 {
-	width: 500px;
-	margin: none;
+	width: 350px;
+	margin: 0px;
 }
 .postcard-body {
 	display: flex;
+	justify-content: center;
 }
 .body-left p:first-child {
-	margin-top: x;
+	margin-top: 0px;
 }
 .body-left,
 .body-right {
-	padding: x;
+	padding: 5px;
 }
 input {
-	border: gray;
-	border-bottom: none;
+	border: none;
+	border-bottom: grey;
 }
 .postcard-footer {
 	text-align: center;
 }
 button {
-	background-color: x;
-	padding: x;
+	background-color: grey;
+	padding: 10px;
 }
+.img {
+	float: right;
+}
+
